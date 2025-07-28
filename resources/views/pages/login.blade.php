@@ -486,17 +486,6 @@
                     <span>atau</span>
                 </div>
 
-                <div class="social-login">
-                    <button type="button" class="social-btn">
-                        <i class="fab fa-google" style="color: #db4437;"></i>
-                        Google
-                    </button>
-                    <button type="button" class="social-btn">
-                        <i class="fab fa-facebook" style="color: #4267B2;"></i>
-                        Facebook
-                    </button>
-                </div>
-
                 <div class="forgot-password">
                     <a href="#">Lupa password?</a>
                 </div>

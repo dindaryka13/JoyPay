@@ -975,22 +975,7 @@
                         </div>
                         <h3>Siap Memulai?</h3>
                         <p>Bergabunglah dengan ribuan pengguna yang telah merasakan kemudahan Arisan Barokah</p>
-                        <a href="#" class="btn">Daftar Sekarang</a>
-                    </div>
-
-                    <!-- Quick Links Widget -->
-                    <div class="toc-widget">
-                        <h3 class="toc-title">
-                            <i class="fas fa-external-link-alt"></i>
-                            Quick Links
-                        </h3>
-                        <ul class="toc-list">
-                            <li><a href="#" class="toc-link">Download App</a></li>
-                            <li><a href="#" class="toc-link">Syarat & Ketentuan</a></li>
-                            <li><a href="#" class="toc-link">Kebijakan Privasi</a></li>
-                            <li><a href="#" class="toc-link">Panduan Lengkap</a></li>
-                            <li><a href="#" class="toc-link">Blog & Tips</a></li>
-                        </ul>
+                        <a href="{{ route('register') }}" class="btn">Daftar Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -1304,9 +1289,6 @@
         document.body.style.transition = 'opacity 0.3s ease';
     </script>
 </body>
-</html><span>Apakah Arisan Barokah aman untuk digunakan?</span>
-                                <i class="fas fa-chevron-down faq-icon"></i>
-                            </div>
                             <div class="faq-answer">
                                 <p>Ya, Arisan Barokah menggunakan sistem keamanan berlapis dengan enkripsi SSL 256-bit, data center bersertifikat, dan monitoring 24/7. Semua dana anggota juga diasuransikan.</p>
                             </div>

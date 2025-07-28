@@ -209,70 +209,6 @@
             position: relative;
         }
 
-        /* Image Gallery Section */
-        .image-gallery {
-            padding: 80px 0;
-            background: #f8f9fa;
-        }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 50px;
-        }
-
-        .gallery-item {
-            position: relative;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-        }
-
-        .gallery-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .gallery-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(transparent, rgba(0,0,0,0.8));
-            color: white;
-            padding: 30px 20px 20px;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover .gallery-overlay {
-            transform: translateY(0);
-        }
-
-        .gallery-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
-
-        .gallery-description {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-
         /* Testimonial Section */
         .testimonial-section {
             padding: 80px 0;
@@ -725,66 +661,6 @@
         </div>
     </section>
 
-    <!-- Image Gallery Section -->
-    <section class="image-gallery">
-        <div class="container">
-            <h2 class="section-title animate-on-scroll">Galeri Arisan Barokah</h2>
-            <p class="section-description animate-on-scroll">
-                Lihat berbagai aktivitas dan momen kebahagiaan komunitas Arisan Barokah
-            </p>
-            
-            <div class="gallery-grid">
-                <div class="gallery-item animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tim Arisan Barokah">
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Tim Profesional</h3>
-                        <p class="gallery-description">Tim ahli yang berpengalaman dalam teknologi finansial</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Keamanan Data">
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Keamanan Terjamin</h3>
-                        <p class="gallery-description">Sistem keamanan berlapis untuk melindungi data Anda</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Komunitas Arisan">
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Komunitas Aktif</h3>
-                        <p class="gallery-description">Ribuan anggota yang saling mendukung</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Teknologi Modern">
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Teknologi Terdepan</h3>
-                        <p class="gallery-description">Platform digital yang mudah dan modern</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Customer Support">
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Dukungan 24/7</h3>
-                        <p class="gallery-description">Customer service yang responsif setiap saat</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sukses Finansial">
-                    <div class="gallery-overlay">
-                        <h3 class="gallery-title">Sukses Finansial</h3>
-                        <p class="gallery-description">Wujudkan impian finansial bersama Arisan Barokah</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Testimonial Section -->
     <section class="testimonial-section">
         <div class="container">
@@ -868,7 +744,7 @@
                 Bergabunglah dengan ribuan orang yang telah merasakan kemudahan Arisan Barokah
             </p>
             <div class="cta-buttons animate-on-scroll">
-                <a href="#" class="btn btn-primary">
+                <a href="{{ route('register') }}" class="btn btn-primary">
                     <i class="fas fa-user-plus"></i>
                     Daftar Sekarang
                 </a>

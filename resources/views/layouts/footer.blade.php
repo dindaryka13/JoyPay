@@ -43,9 +43,9 @@
                     align-items: center;
                     gap: 8px;
                     background: transparent;
-                    color: #10b981;
+                    color: #FFFFFF;
                     padding: 12px 20px;
-                    border: 2px solid #10b981;
+                    border: 2px solid 5E936C;
                     border-radius: 25px;
                     text-decoration: none;
                     font-size: 0.9rem;
@@ -76,7 +76,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fab fa-instagram" style="
                         font-size: 1.5rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <span style="color: #e5e7eb; font-size: 1rem;">@arisan_barokah</span>
@@ -85,7 +85,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fab fa-whatsapp" style="
                         font-size: 1.5rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <span style="color: #e5e7eb; font-size: 1rem;">08123456789</span>
@@ -94,7 +94,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fas fa-phone" style="
                         font-size: 1.5rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <span style="color: #e5e7eb; font-size: 1rem;">08123456789</span>
@@ -118,7 +118,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fas fa-home" style="
                         font-size: 1.2rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <a href="{{ route('home') }}" style="
@@ -132,7 +132,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fas fa-info-circle" style="
                         font-size: 1.2rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <a href="{{ route('informasi') }}" style="
@@ -146,7 +146,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fas fa-book" style="
                         font-size: 1.2rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <a href="{{ route('kamus') }}" style="
@@ -160,7 +160,7 @@
                 <div style="display: flex; align-items: center; gap: 15px;">
                     <i class="fas fa-users" style="
                         font-size: 1.2rem;
-                        color: #10b981;
+                        color: #FFFFFF;
                         width: 30px;
                     "></i>
                     <a href="{{ route('kloter') }}" style="
@@ -179,16 +179,16 @@
 {{-- CSS untuk efek hover dan responsive --}}
 <style>
     .footer-section a:hover {
-        color: #10b981 !important;
+        color: #FFFFFF !important;
         transform: translateX(5px);
     }
 
     .back-to-top:hover {
-        background: rgba(16, 185, 129, 0.6) !important;
+        background: rgba(255, 255, 255, 0.6) !important;
         color: white !important;
-        border-color: #10b981 !important;
+        border-color: #FFFFFF !important;
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
     }
 
     /* Responsive Design */
